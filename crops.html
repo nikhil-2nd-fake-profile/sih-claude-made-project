@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropWise - Crop Details</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans:wght@400;500;700;900&family=Public+Sans:wght@400;500;700;900" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="design-root">
+        <div class="layout-container">
+            <!-- Header -->
+            <header class="main-header">
+                <div class="header-brand">
+                    <svg class="brand-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_6_330)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z" fill="currentColor"></path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_6_330"><rect width="48" height="48" fill="white"></rect></clipPath>
+                        </defs>
+                    </svg>
+                    <h2 class="brand-title">CropWise</h2>
+                </div>
+                
+                <nav class="header-nav">
+                    <a href="index.html" class="nav-link">Dashboard</a>
+                    <a href="crops.html" class="nav-link active">Crops</a>
+                    <a href="sensors.html" class="nav-link">Sensors</a>
+                    <a href="#" class="nav-link">Insights</a>
+                </nav>
+                
+                <div class="header-actions">
+                    <button class="notification-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                            <path d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"></path>
+                        </svg>
+                    </button>
+                    <div class="user-avatar"></div>
+                </div>
+            </header>
+
+            <!-- Main Content -->
+            <main class="main-content-crops">
+                <div class="content-area">
+                    <div class="content-header">
+                        <div class="header-text">
+                            <h1 class="page-title">Crop Details: Corn</h1>
+                            <p class="page-description">Detailed information about corn cultivation, including optimal growing conditions and resource management.</p>
+                        </div>
+                    </div>
+
+                    <!-- Growing Season Section -->
+                    <section class="content-section">
+                        <h3 class="section-title">Growing Season</h3>
+                        <p class="section-content">
+                            Corn thrives in warm weather, with an ideal growing season from late spring to early fall. The optimal temperature range for growth is between 20°C and 30°C (68°F and 86°F).
+                        </p>
+                    </section>
+
+                    <!-- Soil Requirements Section -->
+                    <section class="content-section">
+                        <h3 class="section-title">Soil Requirements</h3>
+                        <p class="section-content">
+                            Corn prefers well-drained, fertile soils with a pH between 6.0 and 7.0. Regular soil testing is recommended to ensure nutrient levels are adequate for optimal growth.
+                        </p>
+                    </section>
+
+                    <!-- Water Needs Section -->
+                    <section class="content-section">
+                        <h3 class="section-title">Water Needs</h3>
+                        <p class="section-content">
+                            Corn requires consistent moisture, especially during critical growth stages such as pollination and grain fill. Irrigation should be scheduled based on soil moisture levels and weather conditions to prevent water stress.
+                        </p>
+                    </section>
+
+                    <!-- Irrigation Recommendations Section -->
+                    <section class="content-section">
+                        <h3 class="section-title">Irrigation Recommendations</h3>
+                        <p class="section-content">
+                            Implement drip irrigation or center pivot systems for efficient water delivery. Monitor soil moisture using IoT sensors to optimize irrigation schedules and minimize water waste. Adjust irrigation frequency and duration based on real-time data and crop needs.
+                        </p>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
